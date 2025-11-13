@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORKS | My Portfolio</title>
+<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/child.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-logo"><a href="index.html">My Portfolio</a></h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ページタイトル -->
+  <section class="p-child--hero">
+    <div class="p-child--hero-container">
+      <h2>CONTACT</h2>
+    </div>
+  </section>
+  <!-- お問い合わせフォーム -->
+  <section class="contact-form section">
+    <div class="container">
+      <form action="#" method="post" class="form">
+        <div class="form-group">
+          <label for="name">お名前 <span class="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="例：example@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">件名</label>
+          <input type="text" id="subject" name="subject" placeholder="お問い合わせの件名">
+        </div>
+
+        <div class="form-group">
+          <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="6" placeholder="ご用件をご記入ください" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn">送信する</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 My Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
