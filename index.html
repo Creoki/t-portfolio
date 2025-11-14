@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
 <link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -12,13 +13,13 @@
   <!-- ヘッダー -->
   <header class="site-header">
     <div class="container header-inner">
-      <h1 class="site-logo"><a href="#">My Portfolio</a></h1>
+      <h1 class="site-logo"><a href="/">My Portfolio</a></h1>
       <nav class="site-nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="./archive.html">Works</a></li>
+          <li><a href="./about">About</a></li>
+          <li><a href="./contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -36,19 +37,23 @@
   <!-- 実績セクション -->
   <section class="works section">
     <div class="container">
-      <h2 class="section-title">WORKS</h2>
-      <div class="works-grid">
-        <a href="" class="work-card">
+      <div class="sec-title--wrapper zoom-in">
+        <span class="section-title--en">WORKS</span>
+        <h2 class="section-title--jp">これまでの実績</h2>
+      </div>
+        <p>これまでに対応した実績を掲載しています。実績の詳細ページでは、制作期間や役割など詳しい情報を見ることができますので、ご参考ください。</p>
+      <div class="works-grid m-t40">
+        <a href="" class="work-card zoom-in">
           <img src="images/works1.jpg" alt="Work 1">
           <h3>架空カフェサイト</h3>
           <p>HTML/CSSで制作した架空店舗サイト</p>
         </a>
-        <a href="" class="work-card">
+        <a href="" class="work-card zoom-in">
           <img src="images/works2.jpg" alt="Work 2">
           <h3>ポートフォリオデザイン</h3>
           <p>個人用サイトのデザイン制作</p>
         </a>
-        <a href="" class="work-card">
+        <a href="" class="work-card zoom-in">
           <img src="images/works3.jpg" alt="Work 3">
           <h3>LPデザイン</h3>
           <p>キャンペーン用ランディングページ</p>
@@ -61,9 +66,12 @@
   <section class="about section">
     <div class="container about-inner">
       <div class="about-text">
-        <h2 class="section-title">ABOUT</h2>
+        <div class="sec-title--wrapper zoom-in">
+        <span class="section-title--en">ABOUT</span>
+        <h2 class="section-title--jp">私について</h2>
+      </div>
         <img src="images/profile.png" alt="プロフィール画像" class="profile-img">
-        <p>Webデザイナー兼フロントエンドエンジニアのYutaです。<br>
+        <p class="zoom-in">Webデザイナー兼フロントエンドエンジニアのYutaです。<br>
         シンプルで使いやすいWebサイトを作ることを心がけています。<br>
         主にHTML / CSS / JavaScript / WordPressを使用しています。</p>
       </div>
@@ -73,9 +81,12 @@
   <!-- お問い合わせセクション -->
   <section class="contact section">
     <div class="container contact-inner">
-      <h2 class="section-title">CONTACT</h2>
+      <div class="sec-title--wrapper zoom-in">
+        <span class="section-title--en">CONTACT</span>
+        <h2 class="section-title--jp">お問い合わせ</h2>
+      </div>
       <p>お仕事のご相談やお問い合わせは、こちらからお気軽にどうぞ。</p>
-      <a href="#" class="btn">Contact Me</a>
+      <a href="#" class="btn zoom-in">Contact Me</a>
     </div>
   </section>
 
@@ -85,5 +96,6 @@
       <p>© 2025 My Portfolio</p>
     </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

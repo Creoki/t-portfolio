@@ -1,3 +1,31 @@
+/* 基本設定 */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #fabe00;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
 li{
     list-style: none;
 }
